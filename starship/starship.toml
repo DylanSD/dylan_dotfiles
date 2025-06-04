@@ -16,6 +16,10 @@ success_symbol = '[➜](bold green)'
 [git_branch]
 format =  '[$symbol$branch(:$remote_branch)]($style)'
 
+[conda]
+format = '[$environment](dimmed green) '
+ignore_base = false  # Or true if you want to skip showing 'base'
+
 [aws]
 format = '[$symbol(profile: "$profile" )(\(region: $region\) )]($style)'
 disabled = false
